@@ -21,6 +21,13 @@ p {
 h2 {
     font-family: "Figtree ExtraBold";
 }
+#mozzila {
+    text-decoration: none;
+    color: black;
+}
+#mozzila:hover {
+    color: hsl(47, 88%, 63%);
+}
 #Greg {
     float: left;
     width: 10%;
@@ -28,14 +35,22 @@ h2 {
 #card {
 
     background-color: white;
-    max-width: 25rem;
+    max-width: 19rem;
     padding: 1.5rem;
 
     border-style: solid;
-    border-radius: 2rem;
+    border-radius: 1rem;
     border-width: .1rem;
     border-color: black;
     box-shadow: black .5rem .5rem 0rem;
     margin: 20rem auto auto auto;
+}
 
+#Graphic {
+    width: max-content;
+    border-radius: .9em;
+}
+
+h4 {
+    padding: 0 0 0 3em;
 }
